@@ -1,0 +1,44 @@
+button {
+  height: 3rem;
+  cursor: pointer;
+  width: 6rem;
+}
+
+.card-container {
+  border: 1px solid black;
+  width: 10rem;
+  background: gainsboro;
+}
+
+nav {
+  display: flex;
+  justify-content: space-evenly;
+  background: lemonchiffon;
+}
+
+.nav-link {
+  margin-right: 1rem;
+  margin-left: 1rem;
+}
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 80vh;
+}
+
+h2 {
+  text-align: center;
+  margin: auto;
+}
+.card-render-container,
+.update-window {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card-container {
+  height: 23vmin;
+}
